@@ -1,0 +1,5 @@
+qcomseed:
+This daemon has been edited to use /sbin/linker64 instead of
+/system/bin/linker64 to work on the recovery.
+
+sed "s|/system/bin/linker64\x0|/sbin/linker64\x0\x0\x0\x0\x0\x0\x0|g" qseecomd > qseecomd.bin

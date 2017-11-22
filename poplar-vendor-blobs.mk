@@ -12,3 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+VENDOR_PATH := vendor/sony/poplar
+
+include $(VENDOR_PATH)/product/*.mk
